@@ -33,7 +33,7 @@ public class Main {
         Edgard.setCarrera("Ing Sistemas");
         Edgard.setNota(100f);
 
-        System.out.println("El Estudiante es: " + Edgard.getNombre() + " " + Edgard.getApellidos() + "de la carrera" + Edgard.getCarrera() + " " + Edgard.getNota() + "en POO1");
+        System.out.println("El Estudiante es: " + Edgard.getNombre() + " " + Edgard.getApellidos() +" " + "de la carrera" + Edgard.getCarrera() + " " + Edgard.getNota() +" " + "en POO1");
 
 
     }

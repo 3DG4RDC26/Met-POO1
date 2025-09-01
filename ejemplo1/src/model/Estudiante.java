@@ -20,7 +20,8 @@ public class Estudiante {
     }
 
     public void setNombre(String nombre) {
-        this.nombre = nombre;
+        this.nombre = nombre.trim();
+        this.nombre = this.nombre.toUpperCase();
     }
 
     public String getApellidos() {
