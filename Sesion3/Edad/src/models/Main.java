@@ -17,7 +17,7 @@ public class Main {
 
             if (edad < 0) {
                 System.out.println("Edad inválida. Intenta de nuevo.");
-                i--; 
+                i--;
                 continue;
             }
 
